@@ -28,6 +28,8 @@ The CSV files from Kaggle were ingested into Azure Data Lake using Azure Data Fa
 
 ### Step 2: Data Processing with Databricks after config with Azure data lake storage
 
+<img width="1195" alt="Screenshot 2024-06-25 at 4 32 08 PM" src="https://github.com/charan1207/charan1207-charan1207-olympics-2021-Analysis-using-Azure-Synapse-and-Databricks/assets/28255223/050c4636-269c-482c-a67a-12a964f41700">
+
 # Calculate the average number of entries by gender for each discipline
 average_entries_by_gender = entriesgender.withColumn(
     'Avg_Female', entriesgender['Female'] / entriesgender['Total']
@@ -40,13 +42,12 @@ average_entries_by_gender.show()
 After processing the data in Databricks, Azure Synapse was used for analysis and visualization. Various charts and graphs were created to represent the data insights.
 
 Here are some of the visualizations created during the analysis:
+Description of Visualization 1
+
+Calculate the total medals won by each country:
 
 <img width="1195" alt="Screenshot 2024-06-25 at 4 31 49 PM" src="https://github.com/charan1207/charan1207-charan1207-olympics-2021-Analysis-using-Azure-Synapse-and-Databricks/assets/28255223/71b17956-cda5-40aa-b918-208eed38561a">
 
-Description of Visualization 1
-
-
-Description of Visualization 2
 
 # Conclusion
 This project demonstrates the use of Azure Synapse and Databricks for data analysis, from data ingestion to visualization. The combination of these tools allows for efficient data processing and insightful visualizations.
