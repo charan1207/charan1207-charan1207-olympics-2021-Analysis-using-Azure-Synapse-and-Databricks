@@ -41,6 +41,7 @@ After processing the data in Databricks, Azure Synapse was used for analysis and
 
 Here are some of the visualizations created during the analysis:
 
+<img width="1195" alt="Screenshot 2024-06-25 at 4 31 49 PM" src="https://github.com/charan1207/charan1207-charan1207-olympics-2021-Analysis-using-Azure-Synapse-and-Databricks/assets/28255223/71b17956-cda5-40aa-b918-208eed38561a">
 
 Description of Visualization 1
 
